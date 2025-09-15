@@ -1,0 +1,26 @@
+abstract class Ex2 
+{
+	abstract void walk();
+
+	abstract void sleep();
+
+	public void read(){
+		System.out.println("I am reading newspaper");
+	}
+	class Ex3 extends Ex2
+	{
+		public void walk(){
+			System.out.println("I am walking");
+	}
+	public void sleep(){
+			System.out.println("I am sleeping now ");
+	}
+	}
+	public static void main(String[] args) 
+	{
+		Ex3 e = new Ex3();
+		e.walk();
+		e.read();
+		e.sleep();
+	}
+}
