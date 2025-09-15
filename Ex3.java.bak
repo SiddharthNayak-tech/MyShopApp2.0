@@ -3,6 +3,8 @@ abstract class Ex2
 	abstract void walk();
 
 	abstract void sleep();
+	abstract void talk();
+	abstract void eat();
 
 	public void read(){
 		System.out.println("I am reading newspaper");
@@ -18,7 +20,8 @@ abstract class Ex2
 	}
 	public static void main(String[] args) 
 	{
-		Ex3 e = new Ex3();
+		Ex3 e1 = new Ex3();
+        Ex3 e2 = new Ex3();
 		e.walk();
 		e.read();
 		e.sleep();
